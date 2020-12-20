@@ -1,0 +1,50 @@
+body {
+  background: #243447;
+}
+
+.collection-item {
+  background: rgba(36, 52, 71, 0.4) !important;
+
+  border-color: rgba(20, 29, 38, 0.4) !important;
+}
+
+.collection {
+  border: none !important;
+}
+
+.container {
+  max-width: 40%;
+}
+
+.secondary-content {
+  font-family: "Roboto", sans-serif !important;
+  font-size: 10px;
+  font-weight: 300;
+}
+
+/* label focus color */
+.input-field input[type="text"]:focus + label,
+.materialize-textarea:focus:not([readonly]) + label {
+  color: #ffccbc !important;
+}
+
+/* label underline focus color */
+.input-field input[type="text"]:focus,
+.materialize-textarea:focus:not([readonly]) {
+  border-bottom: 1px solid #ffccbc !important;
+  box-shadow: 0 1px 0 #fbe9e7 !important;
+}
+
+/* label focus color */
+.input-field input[type="text"]:focus + label {
+  color: #ffccbc !important;
+}
+/* label underline focus color */
+.input-field input[type="text"]:focus {
+  border-bottom: 1px solid #ffccbc !important;
+  box-shadow: 0 1px 0 #fbe9e7 !important;
+}
+
+.filtered {
+  display: none;
+}
